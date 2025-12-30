@@ -4,15 +4,19 @@
 
 :root {
   /* Brand Colors - Desert Night Theme */
-  --bg-dark: #0a0a0c;
+  --bg-dark: #050a1f;
+  /* Highly visible deep blue for deployment check */
   --bg-card: #131316;
   --bg-card-hover: #1c1c21;
-  
-  --primary: #00ff9d; /* Cactus Green Neon */
+
+  --primary: #00ff9d;
+  /* Cactus Green Neon */
   --primary-glow: rgba(0, 255, 157, 0.4);
-  --secondary: #bd00ff; /* Night Flower Purple */
-  --accent: #00d2ff; /* Sky Blue */
-  
+  --secondary: #bd00ff;
+  /* Night Flower Purple */
+  --accent: #00d2ff;
+  /* Sky Blue */
+
   --text-main: #ffffff;
   --text-muted: #888888;
   --text-dim: #444444;
@@ -20,7 +24,7 @@
   --border-light: rgba(255, 255, 255, 0.1);
   --glass-bg: rgba(20, 20, 23, 0.7);
   --glass-border: rgba(255, 255, 255, 0.05);
-  
+
   /* Spacing */
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -58,13 +62,16 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg-dark);
 }
+
 ::-webkit-scrollbar-thumb {
   background: #333;
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #444;
 }
@@ -85,7 +92,10 @@ body {
   background-clip: text;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
   line-height: 1.1;
@@ -105,8 +115,15 @@ a {
 
 /* Animation utilities */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fade-in {

@@ -11,6 +11,7 @@ export default function Logo({ size = 40, showText = true }: { size?: number, sh
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
                 className="logo-svg"
+                data-debug-v="1.2"
             >
                 {/* Premium Glow Filters */}
                 <defs>
