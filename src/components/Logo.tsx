@@ -1,5 +1,6 @@
 
 
+// Final Premium Logo - Version 1.1 (Diagnostic)
 export default function Logo({ size = 40, showText = true }: { size?: number, showText?: boolean }) {
     return (
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
