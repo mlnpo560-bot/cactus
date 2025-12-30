@@ -51,8 +51,11 @@ export default function Home({ onSearch }: { onSearch: (q: string) => void }) {
     return (
         <div className="page-content" style={{ paddingLeft: '80px', minHeight: '100vh', width: '100%' }}>
             <main className="hero-section animate-fade-in">
+                <h1 style={{ fontSize: '3.5rem', marginBottom: 'var(--space-md)' }}>
+                    Welcome to the <span className="text-gradient">New Cactus</span>
+                </h1>
                 <div style={{ marginBottom: 'var(--space-lg)', transform: 'scale(1.5)' }}>
-                    <Logo size={120} showText={true} />
+                    <Logo size={80} showText={false} />
                 </div>
 
                 <div className="search-container">
